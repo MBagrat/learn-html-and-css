@@ -21,7 +21,8 @@
     <li><a href="#sup-and-sub">Sup and Sub</a></li>
     <li><a href="#strong-and-emphasis">Strong and Emphasis</a></li>
     <li><a href="#special-characters">Special Characters</a></li>
-    <li><a href=""></a></li>
+    <li><a href="#ordered-and-unordered">Ordered and Unordered List</a></li>
+    <li><a href="#table">Table</a></li>
   </ul>
 
   <h2 id="comment">Comment(See in the code)</h2>
@@ -166,7 +167,7 @@
 
   <p>Copyright &copy; </p>
 
-  <h2>Orderd and Unordered lists</h2>
+  <h2 id="ordered-and-unordered">Ordered and Unordered lists</h2>
   <hr>
 
   <h3>Unorded list</h3>
@@ -204,9 +205,44 @@
         <li>JavaScript</li>
       </ul>
     </li>
-    <li>Gayane</li>~
+    <li>Gayane</li>
     <li>Anna</li>
   </ol>
+
+  <h2 id="table">Table</h2>
+  <hr>
+
+  <table>
+    <tr>
+      <th>Month</th>
+      <th>Savings</th>
+      <th>Gift</th>
+      <th>Savings for holiday!</th>
+    </tr>
+    <tr>
+      <td>January</td>
+      <td colspan="2">$100</td>
+      <td rowspan="3">$50</td>
+    </tr>
+    <tr>
+      <td>March</td>
+      <td>$150</td>
+      <td>$15</td>
+    </tr>
+    <tr>
+      <td>February</td>
+      <td>$80</td>
+      <td>$60</td>
+    </tr>
+  </table>
+
+  <style>
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+
+  </style>
 
 </body>
 
